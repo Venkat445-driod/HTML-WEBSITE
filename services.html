@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <script>
+        function openIframe (tdElem) {
+            window['servicesDataIframe1'].src= tdElem.getAttribute('data-iframeSrc');
+        }
+
+    </script>
+</head>
+<body>
+    <div style="display:flex">
+        <div>
+            <p>Services are any where in Andhra</p>
+            <table border="1" cellspacing="2px" cellpadding="2px" >
+                <tr><td onclick="openIframe(this)" data-iframeSrc="services1.html" >services1</td></tr>
+                <tr><td onclick="openIframe(this)" data-iframeSrc="services2.html">services2</td></tr>
+                <tr><td onclick="openIframe(this)" data-iframeSrc="services3.html">services3</td></tr>
+                <tr><td onclick="openIframe(this)" data-iframeSrc="services4.html">services4</td></tr>
+            </table>
+        </div>
+        <div style="margin-left: 30px;background: lightgray;border-style: groove;margin-top: 20px;">
+            <iframe id="servicesDataIframe1" src="services1.html" height=450 width=450 frameborder=0 name="servicesData" ></iframe>
+        </div>
+    </div>
+</body>
+</html>
