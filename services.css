@@ -1,0 +1,26 @@
+body{
+    
+    background-color: red;
+    position:relative;
+    display:inline-block;
+    overflow:hidden;
+}
+#web ul li li{
+    display:inline-block;
+    position:relative; 
+    background-color: green;
+    border:1px solid black;
+    border-radius: 5;
+    border-color: khaki;
+    overflow:hidden;
+    list-style: none  ;
+    padding:5px;
+    list-style:none ;
+}
+a:hover{
+    font-style: italic;
+    text-decoration: none;
+}
+#bun{
+    position:relative;
+}

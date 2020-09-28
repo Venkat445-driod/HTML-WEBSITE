@@ -1,0 +1,25 @@
+a:hover{
+    background-color: green !important;
+    text-decoration: none;
+}
+
+#page a {
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    float:right;
+    border-top: rgb(151, 113, 132);
+    border:1px;
+    text-align: none;
+    border-top: 2px;
+    
+}
+body {
+    background-image: url("images/pic.jpg");
+}
+
+#page {
+    background: cornsilk;
+    padding: 10px;
+}
+ 
